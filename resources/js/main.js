@@ -43,6 +43,8 @@ if(!validateForm(siteName,siteURL)){
     e.preventDefault();
 }
 
+//Test addingthecommenttotestthesubmittingfunction
+
 function fetchBookmarks() {
     var bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
 
